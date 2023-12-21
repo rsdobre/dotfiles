@@ -21,6 +21,8 @@ alias cat="bat"
 alias ls="lsd"
 alias l="lsd"
 alias la="lsd -a"
+alias ll="lsd -l"
+alias lal="lsd -al"
 export EDITOR=nvim
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
