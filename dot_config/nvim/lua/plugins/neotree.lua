@@ -8,7 +8,7 @@ return {
         "3rd/image.nvim"
     },
     config = function()
-        vim.keymap.set('n', '<leader>e', ':Neotree filesystem reveal left<CR>', opts)
+        vim.keymap.set('n', '<leader>e', ':Neotree toggle reveal left<CR>', {desc = "Open NeoTree"})
         window = {
             position = "left",
             width = 30
